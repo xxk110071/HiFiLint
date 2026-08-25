@@ -28,7 +28,5 @@ jobs:
       - name: 上传APK
         uses: actions/upload-artifact@v4
         with:
-          name: HiFiLint‑debug‑apk
-          path: build/app/outputs/flutter-apk/app-debug.apk
-          name: HiFiLint-debug
+          name: HiFiLint-debug-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
